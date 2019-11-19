@@ -39,5 +39,8 @@ transform = Transform( 0.939326, 0.165016, 0.300728, -0.320125, 0.736663, 0.5956
 shadow_enabled = true
 shadow_color = Color( 0.129412, 0.145098, 0.160784, 1 )
 
+[node name="Camera" type="Camera" parent="."]
+transform = Transform( 1, 0, 0, 0, 0.87506, 0.484014, 0, -0.484014, 0.87506, 0, 4.71074, 1.46829 )
+fov = 67.8506
+
 [node name="FPSCharacter" parent="." instance=ExtResource( 2 )]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 3.56096, 0 )
